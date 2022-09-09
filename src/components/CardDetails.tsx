@@ -1,4 +1,4 @@
-import { ReactElement, ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { IconProps } from 'phosphor-react-native';
 import { VStack, HStack, Text, Box, useTheme } from 'native-base';
 
@@ -7,7 +7,7 @@ type Props = {
   description?: string;
   footer?: string;
   icon: React.ElementType<IconProps>;
-  children?: React.ReactNode;
+  children?: ReactNode;
 }
 
 export function CardDetails({
